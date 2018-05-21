@@ -1,0 +1,9 @@
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\bin\Release\LEGO.DM.exe.config
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\bin\Release\LEGO.DM.exe
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\bin\Release\LEGO.DM.pdb
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\ResolveAssemblyReference.cache
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\LEGO.DM.ProjectInstaller.resources
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\LEGO.DM.Service.resources
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\LEGO.DM.csproj.GenerateResource.Cache
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\LEGO.DM.exe
+C:\Users\benedictd\Documents\Visual Studio 2008\Projects\LEGO.DM\LEGO.DM\obj\Release\LEGO.DM.pdb

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://services.model.irs.lego.icon.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ScheduledTaskRunnerBeanService" targetNamespace="http://services.model.irs.lego.icon.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://pa-itgip2f5pt-2:7003/ScheduledTaskRunnerBean/ScheduledTaskRunnerBeanService?xsd=1" namespace="http://services.model.irs.lego.icon.com/" />
+    </xsd:schema>
+  </types>
+  <message name="runDM">
+    <part name="parameters" element="tns:runDM" />
+  </message>
+  <message name="runDMResponse">
+    <part name="parameters" element="tns:runDMResponse" />
+  </message>
+  <portType name="ScheduledTaskRunner">
+    <operation name="runDM">
+      <input message="tns:runDM" />
+      <output message="tns:runDMResponse" />
+    </operation>
+  </portType>
+  <binding name="ScheduledTaskRunnerBeanPortBinding" type="tns:ScheduledTaskRunner">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="runDM">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ScheduledTaskRunnerBeanService">
+    <port name="ScheduledTaskRunnerBeanPort" binding="tns:ScheduledTaskRunnerBeanPortBinding">
+      <soap:address location="http://pa-itgip2f5pt-2:7003/ScheduledTaskRunnerBean/ScheduledTaskRunnerBeanService" />
+    </port>
+  </service>
+</definitions>
